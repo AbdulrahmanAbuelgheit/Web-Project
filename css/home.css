@@ -1,0 +1,163 @@
+
+.scroll-up{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 42px;
+    height: 45px;
+    background: crimson;
+    border-radius: 10px;
+}
+
+/*Nav Bar Styling*/
+
+.navbar{
+    padding: 20px 0;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    transition: all .5s ease-in-out;
+}
+
+.navbar.bar{
+    background: rgb(240, 5, 5);
+    padding: 4px 0
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    transition: color .3s ease-in-out
+}
+
+
+
+
+
+
+/*Home section styling*/
+
+
+.home{
+    height: 120vh;
+    background: url("../images/home.jpg") no-repeat center ;
+    background-size: cover;
+    color: rgb(145, 16, 16);
+    font-family: arial, Tahoma; 
+    text-align:left;
+}
+/*About Section Styling*/
+
+
+section{
+    padding: 100px 0
+}
+.about, .services, .type,.contact{
+    font-family: arial , tahoma;
+}
+
+.about .title{
+    position: relative;
+    font-family: Tahoma;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    color: crimson;   
+}
+
+/*type section styling*/
+
+.type{
+    background-color: #111;
+    color: #fff;
+}
+
+
+
+.type .content .box-up{
+    background: #333;
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.type .content .box-up img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+    border: 5px solid crimson
+}
+
+
+/*contact section styling*/
+.contact .right{
+    width: 100%
+}
+.contact .right .fields .one{display: flex;flex: 1}
+.contact .right .fields input,.contact .right .fields textarea{
+    width: 70%;
+    height: 40%;
+    border: 1px solid rgb(8, 2, 2);
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-size: 18px;
+   
+}
+.contact .right .fields .mail{
+    margin-left: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.contact .right .fields .subject{margin-bottom: 10px;}
+
+.contact .right .fields button, .type .content .box-up .box button{ 
+    display: inline-block;
+    background: crimson;
+    color: #FFF;
+    font-size: 27px;
+    padding: 12px 36px;
+    margin: 20px 0 0 5px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid crimson;
+    cursor: pointer;
+    transition: all .3s ease-in-out  
+    
+}
+/*footer styling */
+footer{
+    background: #111;
+    color: #fff;
+    padding: 20px 23px;
+    text-align: center
+}
+
+
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
